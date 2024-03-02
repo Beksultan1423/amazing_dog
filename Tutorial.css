@@ -1,0 +1,365 @@
+body {
+
+	margin: 0;
+	padding: 0;
+	background-color: #7DA4D3;
+	height: 200vh;
+}
+
+
+.b {
+
+	color: red;
+}
+
+#text {
+
+	color: blue;
+}
+
+
+.Dog {
+
+	z-index: 2;
+	width: 800px;
+	position: absolute;
+	top: 10vh;
+
+}
+
+.Text_button a {
+
+	text-decoration: none;
+	position: absolute;
+	z-index: 4;
+
+}
+
+.Text_button h2 {
+
+	color: white;
+}
+
+
+.start {
+
+	left: 50vh;
+}
+
+.game {
+
+	left: 70vh;
+}
+
+.time {
+
+	left: 90vh;
+}
+
+.cut {
+
+	left: 110vh;
+}
+
+.Text_button h2:hover {
+
+	color: gray;
+	cursor: pointer;
+}
+
+.Text_button h2 {
+
+	font-size: 28px;
+	font-weight: 700;
+	font-family: "Kode Mono", monospace;
+	position: fixed;
+
+}
+
+/*.Galaxy {
+
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	background-size: cover;
+	width: 199.6vh;
+	background-attachment: fixed;
+	opacity: 0.5;
+}
+*/
+
+
+.Collum {
+
+	background: #6897D0;
+	width: 100%;
+	height: 9vh;
+	border-bottom: 5px solid #6794CA;
+	position: fixed;
+	z-index: 3;
+
+}
+
+.Circle {
+
+	width: 400px;
+	height: 400px;
+	background: white;
+	position: absolute;
+	top: 260px;
+	left: 200px;
+	border-radius: 100%;
+	z-index: 1;
+}
+
+
+
+.Text {
+
+	position: absolute;
+	top: 20%;
+	left: 40%;
+}
+
+.Text h1 {
+
+	font-size: 80px;
+	font-family: "Madimi One", sans-serif;
+	font-weight: bold;
+	text-align: left;
+	color: white;
+
+}
+
+
+@media (max-width: 1648px)
+{
+	.Text {
+
+		left: 700px;
+	}
+}
+
+@media (max-width: 1189px)
+{
+	.Dog {
+
+		width: 750px;
+		left: -20px;
+	}
+
+	.Circle {
+
+		left: 175px;
+		width: 350px;
+		height: 350px;
+
+	}
+
+	.start {
+
+	left: 30vh;
+
+	}
+
+	.game {
+
+		left: 50vh;
+	}
+
+	.time {
+
+		left: 70vh;
+	}
+
+	.cut {
+
+		left: 90vh;
+	}
+
+	
+
+	
+
+
+}
+
+@media (max-width: 1163px)
+{
+	.Text {
+
+		top: 650px;
+		left: 0px;
+
+	}
+
+	.Text h1 {
+
+		text-align: center;
+
+	}
+
+	.Circle {
+
+		top: 50%;
+		left: 50%;
+		width: 300px;
+		height: 300px;
+		transform: translate(-50%, -50%);
+
+	}
+
+	.Dog {
+
+		top: 50%;
+		left: 50%;
+		width: 700px;
+		transform: translate(-50%, -50%);
+
+	}
+}
+
+@media (max-width: 745px)
+{
+	.Dog {
+
+		top: 50%;
+		left: 50%;
+		width: 700px;
+		transform: translate(-50%, -50%);
+
+	}
+
+	.Circle {
+
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 300px;
+		height: 300px;
+
+	}
+
+	.start {
+
+		left: 10vh;
+
+	}
+
+	.game {
+
+		left: 30vh;
+	}
+
+	.time {
+
+		left: 50vh;
+	}
+
+	.cut {
+
+		left: 70vh;
+	}
+
+
+}
+
+@media (max-width: 612px)
+{
+	.Dog {
+
+		top: 50%;
+		left: 50%;
+		width: 600px;
+		transform: translate(-50%, -50%);
+
+	}
+
+	.Circle {
+
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 300px;
+		height: 300px;
+
+	}
+
+	.Text h1 {
+
+		font-size: 50px;
+	}
+
+	.start {
+
+		left: 5vh;
+
+	}
+
+	.game {
+
+		left: 20vh;
+	}
+
+	.time {
+
+		left: 35vh;
+	}
+
+	.cut {
+
+		left: 50vh;
+	}
+}
+
+@media (max-width: 293px)
+{
+	.Dog {
+
+		top: 50%;
+		left: 50%;
+		width: 800px;
+		transform: translate(-50%, -50%);
+
+	}
+
+	.Circle {
+
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 300px;
+		height: 300px;
+
+	}
+
+	.Text h1 {
+
+		font-size: 50px;
+	}
+
+	.start {
+
+		left: -40vh;
+
+	}
+
+	.game {
+
+		left: -25vh;
+	}
+
+	.time {
+
+		left: -10vh;
+	}
+
+	.cut {
+
+		left: 5vh;
+	}
+}
+
+
